@@ -1,0 +1,26 @@
+sno=int(input('enter roll no:'))
+sname=input('enter name:')
+s1=int(input('enter maths marks:'))
+s2=int(input('enter physics marks:'))
+s3=int(input('enter cs marks:'))
+s4=int(input('enter english marks:'))
+s5=int(input('enter telugu marks:'))
+s6=int(input('enter skillcourse marks:'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if s1>35 and s2>35 and s3>35 and s4>35 and s5>35 and s6>35:
+    if avg>91:
+        print('0-grade')
+    elif avg>81:
+        print('a-grade')
+    elif avg>71:
+        print('b-grade')
+    elif avg>61:
+        print('c-grade')
+    elif avg>51:
+        print('d-grade')
+    elif avg>41:
+        print('e-grade')
+else:
+    print('fail')
+
